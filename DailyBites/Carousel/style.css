@@ -1,0 +1,31 @@
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding:0 
+}
+div.owl-dot{
+	display:none;
+}
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+.owl-carousel .owl-item img {
+    display: block;
+ 	border-radius: 15% 0;
+	width:100%;
+	height: 150px;
+	margin-top: 50px;
+	
+}
+
+
+
+
+/* end fix */
+.owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color:black;
+}
+
+

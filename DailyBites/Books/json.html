@@ -1,0 +1,26 @@
+<div class="sitemap">
+
+
+<div id="list"></div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    $.getJSON('https://dailybites.webcrix.com/Json/books.json', function (data) {
+
+        for (key in data) {
+            var output = "<h3>" + key + "</h3><ul>";
+
+            $.each(data[key], function (key, value) {
+                output += "<li>" + value.book_name + "</li>";
+            });
+
+            output += "</ul>";
+            $('#list').append(output);
+        }
+
+    });
+
+</script>
+</div>
