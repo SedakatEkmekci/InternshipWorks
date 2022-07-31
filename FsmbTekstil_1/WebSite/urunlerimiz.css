@@ -1,0 +1,76 @@
+
+   #fontsize {
+        font-size: 18px;
+      }
+
+    a{ position: relative; -webkit-transform: scale(1); -ms-transform: scale(1); -moz-transform: scale(1); transition: all .3s ease-in; -moz-transition: all .3s ease-in; -webkit-transition: all .3s ease-in; -ms-transition: all .3s ease-in; } 
+    a:hover{ z-index:2; -webkit-transform: scale(1.1); -ms-transform: scale(1.1); -moz-transform: scale(1.1); transform: scale(1.1); }
+
+    .marjver{
+      margin-left: -27%;
+
+    }
+      @media (max-width:500px) { 
+  .col {         
+
+  !important;
+  margin-left: 50px;     
+
+  } }
+     @media (max-width:800px) { 
+  .btn {         
+
+  !important;
+  margin-left: 27px;     
+
+  } }
+
+        #dis{   
+              opacity: 0,1; 
+             position:relative; }
+        #ic{  
+            position:absolute;    
+            top:0px;}
+        .hidden{
+            display: none;
+        }
+        #li {
+            float: left;
+        }
+        .test{
+            margin-left: 30%;
+        }
+       .ornek{
+
+        width: auto;
+
+        margin:auto;
+
+        }
+
+        .sola-kaydir{
+
+        float:left;
+
+        padding:0 10px 10px 0;
+
+        }
+
+         
+
+        .ornek2{
+
+        width: auto;
+
+        margin:auto;
+
+        }
+
+        .saga-kaydir{
+
+        float:right;
+
+        padding:0 10px 10px 0;
+
+        }
+        
